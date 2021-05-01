@@ -15,13 +15,14 @@ import pink from '@material-ui/core/colors/pink'
 import { withStyles } from '@material-ui/core/styles';
 
 import {login} from './Auth'
+import Image from '../login.png';
 
 const styles = theme => ({  
   root: {
     height: '100vh',
   },
   image: {
-    backgroundImage: 'url(${login.png})',
+    backgroundImage: 'url(${Image})',
     backgroundRepeat: 'no-repeat',
     backgroundColor: pink[500],
     backgroundSize: 'cover',
