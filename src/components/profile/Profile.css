@@ -8,27 +8,20 @@
     justify-content: space-around;
 }
 
-.container img{
-    border-radius: 5%;
-    border: 5px solid white;
-}
-.vertical-center {
-    margin: 0;
-    position: relative;
-    left:2.5%;
-    width: 95%;
-    height:100%;
-}
-
 .profile-image {
     position: absolute;
+    border-radius: 5%;
+    border: 5px solid white;
     top: 0%;
+
 }
 
 .profile-bio {
     color: white;
     position: absolute;
     float:left;
+    
+    left:5%;
     width: 100%;
     margin-right:15px;
     display:block;
@@ -52,3 +45,15 @@
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.edit-btn {
+    opacity: 60%;
+    transition: opacity 0.7s;
+    width:40px;
+    height:40px;
+    transform:scale(0.16);
+    position:relative;
+}
+
+.edit-btn:hover{
+    opacity:100%;
+}
