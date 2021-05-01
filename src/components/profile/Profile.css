@@ -1,16 +1,16 @@
-.container { 
+.profile { 
     height: 400px;
     width: 400px;
     position: relative;
     top: 10%;
-    margin:auto ;
+    left: 20%;
     display: block;
     justify-content: space-around;
 }
 
 .profile-image {
     position: absolute;
-    border-radius: 5%;
+    border-radius: 20px;
     border: 5px solid white;
     top: 0%;
 
@@ -20,7 +20,7 @@
     color: white;
     position: absolute;
     float:left;
-    
+
     left:5%;
     width: 100%;
     margin-right:15px;
@@ -30,7 +30,7 @@
     align-items:flex-end;
     margin: 0%;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    
+
 }
 
 .profile-name {
@@ -56,4 +56,16 @@
 
 .edit-btn:hover{
     opacity:100%;
+}
+
+.extended-bio{
+    position:static;
+    top:20%;
+    margin:15%;
+    margin-top:20px;
+    font-size:18pt;
+    color:white;
+    border:5px solid white;
+    border-radius:20px;
+
 }
