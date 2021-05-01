@@ -1,3 +1,41 @@
-/* .test {
- color: black;
-} */
+.contacts{
+    height:80%;
+    background-color:lightgray;
+    border:5px solid white;
+    border-radius:20px;
+    width:35%;
+    left:5%;
+    position:absolute;
+    font-size:16pt;
+
+}
+.contacts ul{
+    width:100%;
+    position:relative;
+}
+.contacts li{
+    margin:0;
+    padding:0;
+    position:relative;
+
+
+}
+.contacts h2{
+    left:10%;
+    margin-bottom:0;
+    position:relative;
+}
+
+.contacts hr{
+    width:90%;
+    right:7.5%;
+    position:relative;
+
+}
+.featured{
+    width:40%;
+    top:20%;
+    right:10%;
+    position:absolute;
+    margin:auto;
+}
