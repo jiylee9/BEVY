@@ -14,6 +14,8 @@ import Typography from '@material-ui/core/Typography';
 import pink from '@material-ui/core/colors/pink'
 import { withStyles } from '@material-ui/core/styles';
 
+import { Link as Links } from 'react-router-dom'
+
 import {login} from './Auth'
 
 const styles = theme => ({  
@@ -21,7 +23,7 @@ const styles = theme => ({
     height: '100vh',
   },
   image: {
-    backgroundImage: 'url(https://i.ibb.co/DRcfZNL/Screen-Shot-2021-05-01-at-8-45-36-AM.png)',
+    backgroundImage: 'url(https://i.ibb.co/zJZ2XMf/login.png)',
     backgroundRepeat: 'no-repeat',
     backgroundColor: pink[500],
     backgroundSize: 'cover',
@@ -38,7 +40,7 @@ const styles = theme => ({
     backgroundColor: theme.palette.secondary.main,
   },
   form: {
-    width: '100%', // Fix IE 11 issue.
+    width: '100%',
     marginTop: theme.spacing(1),
   },
   submit: {
@@ -82,9 +84,10 @@ class Login extends React.Component {
 
       handleSubmit = e => {
         e.preventDefault();
-        login(this.state.email, this.state.password).catch(error => {
-          alert('Invalid username/password.');
-        });
+        // login(this.state.email, this.state.password).catch(error => {
+        //   alert('Invalid username/password.');
+        // });
+        
       };
     
     render() {
@@ -139,6 +142,7 @@ class Login extends React.Component {
                       label="Remember me"
                     />
 
+                    <Links to='/profile'>
                     <Button
                       type="submit"
                       fullWidth
@@ -148,6 +152,7 @@ class Login extends React.Component {
                     >
                       Sign In
                     </Button>
+                    </Links>
 
                     <Grid container>
                       <Grid item>
