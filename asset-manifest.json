@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/BEVY/static/css/main.f9eea43a.chunk.css",
+    "main.js": "/BEVY/static/js/main.deac329c.chunk.js",
+    "main.js.map": "/BEVY/static/js/main.deac329c.chunk.js.map",
+    "runtime-main.js": "/BEVY/static/js/runtime-main.e328598d.js",
+    "runtime-main.js.map": "/BEVY/static/js/runtime-main.e328598d.js.map",
+    "static/js/2.84d92931.chunk.js": "/BEVY/static/js/2.84d92931.chunk.js",
+    "static/js/2.84d92931.chunk.js.map": "/BEVY/static/js/2.84d92931.chunk.js.map",
+    "index.html": "/BEVY/index.html",
+    "static/css/main.f9eea43a.chunk.css.map": "/BEVY/static/css/main.f9eea43a.chunk.css.map",
+    "static/js/2.84d92931.chunk.js.LICENSE.txt": "/BEVY/static/js/2.84d92931.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e328598d.js",
+    "static/js/2.84d92931.chunk.js",
+    "static/css/main.f9eea43a.chunk.css",
+    "static/js/main.deac329c.chunk.js"
+  ]
+}
