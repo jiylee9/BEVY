@@ -7,11 +7,10 @@ import Profile from './components/profile/Profile'
 import Login from './components/login/Login'
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Home from './Home'
 
 import './App.css';
 
-function App() {
+function Home() {
   return (
     <Router>   
       <div className="home-default">  
@@ -28,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
