@@ -18,7 +18,7 @@ class Profile extends React.Component {
 
     return (
       <div className="container">
-        <img className="profile-image" src="https://dummyimage.com/400x400/cc78cc/0011ff" alt="Italian Trulli"></img>
+        <img className="profile-image" src="https://i.imgur.com/hzRXXd1.jpg" alt="kati wen"></img>
         
         <div className="vertical-center">
           <div className="profile-bio">
