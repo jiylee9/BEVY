@@ -2,6 +2,7 @@ import axios from "axios";
 import React from "react";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import "./Profile.css"
+import Nav from "../nav/Nav"
 
 class Profile extends React.Component {
 
@@ -15,6 +16,8 @@ class Profile extends React.Component {
     // const name = axios.get()
 
     return (
+      <div>
+        <Nav/>
       <div className="container">
         <div className="profile">
           <img className="profile-image" src="https://i.imgur.com/hzRXXd1.jpg" alt="kati wen"></img>
@@ -34,13 +37,14 @@ class Profile extends React.Component {
         <div className="extended-bio">
           
           <ul>
-            <li>Short Description</li>
-            <li>Interests</li>
-            <li>Graduation Year</li>
+            <li>Bio: A fun outgoing person!</li>
+            <li>Interests: Knitting, skin care, webtoons</li>
+            <li>Graduation year: 2024</li>
           </ul>
 
         </div>
 
+      </div>
       </div>
     );
   }

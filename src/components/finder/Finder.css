@@ -6,7 +6,6 @@
     margin:auto ;
     display: block;
     justify-content: space-around;
-    animation:pop-up;
 }
 
 .discover-image {
@@ -91,4 +90,25 @@
 
 .arrow[title="right"]:hover{
     opacity:100%;
+}
+.discover-extended-bio{
+    position:absolute;
+    padding:0;
+    top:400px;
+    left:-31%;
+    margin-top:20px;
+    font-size:18pt;
+    color:white;
+    border:5px solid white;
+    border-radius:20px;
+
+}
+.discover-extended-bio ul{
+    list-style-type:circle;
+}
+.discover-extended-bio li{
+    position:relative;
+    margin:0;
+    padding:0;
+    display:block;
 }

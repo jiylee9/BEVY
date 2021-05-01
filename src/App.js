@@ -15,10 +15,7 @@ function App() {
     <Router>   
       <div className="home-default">  
 
-          <Nav />
-          <Route path='/matches' component={Match} />
-          <Route path='/discover' component={Finder} />      
-          <Route path='/profile' component={Profile}/>
+        <Home/>
 
 
       </div>

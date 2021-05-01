@@ -1,6 +1,7 @@
 import React from "react";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import "./Finder.css"
+import Nav from "../nav/Nav"
 
 class Finder extends React.Component{
   constructor(props) {
@@ -12,6 +13,9 @@ class Finder extends React.Component{
     // const name = axios.get()
 
     return (
+
+      <div>
+      <Nav/>
       <div className="container">
         
         <div className="discover">
@@ -31,6 +35,16 @@ class Finder extends React.Component{
 
           </div>
 
+          <div className="discover-extended-bio">
+          
+          <ul>
+            <li>Bio: Hardworking and smart</li>
+            <li>Interests: Video games, coding, webtoons</li>
+            <li>Graduation year: 2024</li>
+          </ul>
+
+          </div>
+
         </div>
         <div className="arrow">
           <img src="https://i.imgur.com/fkBZtK7.png" alt="kati wen"></img>
@@ -40,6 +54,8 @@ class Finder extends React.Component{
         </div>
 
       </div>
+      </div>
+
     );
   }
   };
