@@ -1,3 +1,94 @@
-/* .test{
+.discover { 
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 0%;
+    margin:auto ;
+    display: block;
+    justify-content: space-around;
+    animation:pop-up;
+}
+
+.discover-image {
+    position: absolute;
+    border-radius: 5%;
+    border: 5px solid white;
+    top: 0%;
+    transform:scaleX(-1);
+}
+
+.discover-bio {
     color: white;
-} */
+    position: absolute;
+    float:left;
+
+    left:5%;
+    width: 100%;
+    margin-right:15px;
+    display:block;
+    line-height:3px;
+    bottom:0%;
+    align-items:flex-end;
+    margin: 0%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.discover-name {
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.discover-cm {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fav-btn {
+    opacity: 60%;
+    transition: opacity 0.7s;
+    width:40px;
+    height:40px;
+    transform:scale(0.16);
+    position:relative;
+}
+
+.fav-btn:hover{
+    opacity:100%;
+}
+
+.arrow{
+    opacity: 60%;
+    transition: opacity 0.7s;
+    width:40px;
+    height:40px;
+
+    float:left;
+    transform:scale(0.16);
+    top:410px;
+    position:static;
+    transform: scaleX(-0.16) scaleY(0.16);
+}
+
+.arrow:hover{
+    opacity:100%;
+}
+
+.arrow[title="right"]{
+    opacity: 60%;
+    transition: opacity 0.7s;
+    width:40px;
+    height:40px;
+
+    float:right;
+    top:40px;
+    margin-left:px;
+    position:static;
+    transform: scaleX(0.16) scaleY(0.16);
+}
+
+.arrow[title="right"]:hover{
+    opacity:100%;
+}
