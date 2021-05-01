@@ -21,7 +21,7 @@ const styles = theme => ({
     height: '100vh',
   },
   image: {
-    backgroundImage: 'url(https://i.ibb.co/DLpmY2C/login.png)',
+    backgroundImage: 'url(https://i.ibb.co/zJZ2XMf/login.png)',
     backgroundRepeat: 'no-repeat',
     backgroundColor: pink[500],
     backgroundSize: 'cover',
