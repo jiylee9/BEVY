@@ -1,17 +1,9 @@
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 .profile { 
     height: 400px;
     width: 400px;
     position: relative;
     margin:auto;
     top: 10%;
-<<<<<<< Updated upstream
-    left: 20%;
-=======
->>>>>>> Stashed changes
     display: block;
     justify-content: space-around;
 }
@@ -67,16 +59,10 @@
 }
 
 .extended-bio{
-<<<<<<< Updated upstream
-    position:static;
-    top:20%;
-    margin:15%;
-=======
     position:absolute;
     align-self: center;
     margin:29%;
     padding:0;
->>>>>>> Stashed changes
     margin-top:20px;
     font-size:18pt;
     color:white;
@@ -84,8 +70,6 @@
     border-radius:20px;
 
 }
-<<<<<<< Updated upstream
-=======
 .extended-bio ul{
     list-style-type:circle;
 }
@@ -95,4 +79,3 @@
     padding:0;
     display:block;
 }
->>>>>>> Stashed changes

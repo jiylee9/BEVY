@@ -7,12 +7,6 @@ import Finder from '../../components/finder/Finder'
 
 function Match() {
     return (
-<<<<<<< Updated upstream
-      <div className="test">
-
-          <Nav />
-          Match Match Match Match Match Match Match Match Match Match Match Match Match Match Match
-=======
       <div className="container">
           <div className="contacts">
           <h2>Contacts</h2>
@@ -31,7 +25,6 @@ function Match() {
             <Finder/>
           </div>
 
->>>>>>> Stashed changes
       </div>
     );
   }

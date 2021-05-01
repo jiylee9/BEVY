@@ -6,32 +6,20 @@ class Finder extends React.Component{
   constructor(props) {
     super(props);
   }
-<<<<<<< Updated upstream
-
-=======
   
->>>>>>> Stashed changes
   render() {
 
     // const name = axios.get()
 
     return (
       <div className="container">
-<<<<<<< Updated upstream
-
-=======
         
->>>>>>> Stashed changes
         <div className="discover">
 
           <img className="discover-image" src="https://i.imgur.com/etzuKya.png" alt="jyuna"></img>
 
           <div className="fav-btn">
-<<<<<<< Updated upstream
-              <img src="https://i.imgur.com/rp91ko7.png%22%3E</img>
-=======
               <img src="https://i.imgur.com/rp91ko7.png"></img>
->>>>>>> Stashed changes
             </div>
 
           <div className="discover-bio">
