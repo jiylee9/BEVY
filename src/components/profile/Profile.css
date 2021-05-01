@@ -14,6 +14,10 @@
     transform: translateY(-50%);
 }
 
+.profile-image {
+    transition: box-shadow 0.25s;
+}
+
 .profile-image:hover {
     box-shadow: 2px 2px;
 }
