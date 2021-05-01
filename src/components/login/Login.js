@@ -14,6 +14,8 @@ import Typography from '@material-ui/core/Typography';
 import pink from '@material-ui/core/colors/pink'
 import { withStyles } from '@material-ui/core/styles';
 
+import { Link as links } from 'react-router-dom'
+
 import {login} from './Auth'
 
 const styles = theme => ({  
@@ -140,7 +142,7 @@ class Login extends React.Component {
                       label="Remember me"
                     />
 
-                    <Link to='/'>
+                    <links to='/profile'>
                     <Button
                       type="submit"
                       fullWidth
@@ -150,7 +152,7 @@ class Login extends React.Component {
                     >
                       Sign In
                     </Button>
-                    </Link>
+                    </links>
 
                     <Grid container>
                       <Grid item>

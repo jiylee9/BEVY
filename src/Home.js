@@ -10,7 +10,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import './App.css';
 
-function App() {
+function Home() {
   return (
       <div className="home-default">  
 
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
