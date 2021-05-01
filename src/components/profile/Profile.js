@@ -5,7 +5,7 @@ import "./Profile.css"
 function Profile() {
     return (
       <div className="container">
-        <img className="profile-image" src="https://imgur.com/a/58RZqO7.jpg" alt="Kati nwen"></img>
+        <img className="profile-image" src="https://i.imgur.com/hzRXXd1.jpg" alt="Kati nwen"></img>
         
         <div className="vertical-center">
           <div className="profile-bio">
