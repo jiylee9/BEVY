@@ -8,7 +8,7 @@ function Nav() {
     
        <div className="nav-bar">
 
-          <h3>Her Platform.io</h3>
+          <h3>BEVY</h3>
 
           <ul className="nav-bar-list">
               <Link to='/matches'>

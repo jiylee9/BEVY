@@ -38,7 +38,7 @@ const styles = theme => ({
     backgroundColor: theme.palette.secondary.main,
   },
   form: {
-    width: '100%', // Fix IE 11 issue.
+    width: '100%',
     marginTop: theme.spacing(1),
   },
   submit: {
@@ -82,9 +82,10 @@ class Login extends React.Component {
 
       handleSubmit = e => {
         e.preventDefault();
-        login(this.state.email, this.state.password).catch(error => {
-          alert('Invalid username/password.');
-        });
+        // login(this.state.email, this.state.password).catch(error => {
+        //   alert('Invalid username/password.');
+        // });
+        
       };
     
     render() {
@@ -139,6 +140,7 @@ class Login extends React.Component {
                       label="Remember me"
                     />
 
+                    <Link to='/'>
                     <Button
                       type="submit"
                       fullWidth
@@ -148,6 +150,7 @@ class Login extends React.Component {
                     >
                       Sign In
                     </Button>
+                    </Link>
 
                     <Grid container>
                       <Grid item>

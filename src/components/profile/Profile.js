@@ -8,13 +8,31 @@ class Profile extends React.Component {
   constructor(props) {
     super(props);
 
+    this.state = {
+      username: "", 
+      Age: 18,
+      University: "", 
+      Major: ""
 
+    }
 
   }
   
-  render() {
+  componentDidMount() {
+    axios.get('htttp://localhost:5000/:608d9c944481ce87ff1cd91f').then(
+      response => {
+        this.state( {
+          username: response.data.username,
+          Age: response.data.Age, 
+          University: response.data.University, 
+          Major: response.data.Major
+        })
+      }
+    )
+  }
+  
 
-    // const name = axios.get()
+  render() {
 
     return (
       <div className="container">
@@ -24,9 +42,9 @@ class Profile extends React.Component {
           <img src="https://i.imgur.com/x7Pez6T.png"></img>
         </div>
         <div className="profile-bio">
-          <h2 className="profile-name">Katie Nguyen 18</h2>
+          <h2 className="profile-name">{this.state.username}</h2>
 
-          <h3 className="profile-cm">University of Illinois at Urbana Champaign</h3>
+          <h3 className="profile-cm">{this.state.University}</h3>
 
           <h3 className="profile-cm">Chemical Engineering</h3>
         </div>

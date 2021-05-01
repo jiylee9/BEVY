@@ -10,9 +10,8 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import './App.css';
 
-function Home() {
+function App() {
   return (
-    <Router>   
       <div className="home-default">  
 
           <Nav />
@@ -20,11 +19,8 @@ function Home() {
           <Route path='/discover' component={Finder} />      
           <Route path='/profile' component={Profile}/>
 
-
-    </div>
-    </Router> 
-  
+    </div>  
   );
 }
 
-export default Home;
+export default App;
