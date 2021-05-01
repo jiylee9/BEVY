@@ -2,6 +2,8 @@ import axios from "axios";
 import React from "react";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import "./Profile.css"
+import Nav from '../nav/Nav'
+
 
 class Profile extends React.Component {
 
@@ -15,7 +17,6 @@ class Profile extends React.Component {
       Major: ""
 
     }
-
   }
   
   componentDidMount() {
@@ -35,6 +36,7 @@ class Profile extends React.Component {
   render() {
 
     return (
+      <div> <Nav/>
       <div className="container">
         <img className="profile-image" src="https://i.imgur.com/hzRXXd1.jpg" alt="kati wen"></img>
         
@@ -50,6 +52,7 @@ class Profile extends React.Component {
         </div>
         
 
+      </div>
       </div>
     );
   }
