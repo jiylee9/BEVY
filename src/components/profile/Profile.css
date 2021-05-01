@@ -1,0 +1,28 @@
+.container { 
+    height: 200px;
+    position: relative;
+    border: 3px solid white; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.profile-image:hover {
+    box-shadow: 2px 2px;
+}
+
+.profile-name {
+    color: white;
+}
+
+.profile-cm {
+    color: white;
+}
+
