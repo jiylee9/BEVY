@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/BEVY/static/css/main.f9eea43a.chunk.css",
-    "main.js": "/BEVY/static/js/main.deac329c.chunk.js",
-    "main.js.map": "/BEVY/static/js/main.deac329c.chunk.js.map",
+    "main.js": "/BEVY/static/js/main.2e749fa4.chunk.js",
+    "main.js.map": "/BEVY/static/js/main.2e749fa4.chunk.js.map",
     "runtime-main.js": "/BEVY/static/js/runtime-main.e328598d.js",
     "runtime-main.js.map": "/BEVY/static/js/runtime-main.e328598d.js.map",
     "static/js/2.84d92931.chunk.js": "/BEVY/static/js/2.84d92931.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e328598d.js",
     "static/js/2.84d92931.chunk.js",
     "static/css/main.f9eea43a.chunk.css",
-    "static/js/main.deac329c.chunk.js"
+    "static/js/main.2e749fa4.chunk.js"
   ]
 }
