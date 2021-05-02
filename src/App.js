@@ -16,11 +16,10 @@ function App() {
   return (
     <Router>   
       <div className="home-default">  
-      <Nav />
       <Route path='/matches' component={Match} />
       <Route path='/discover' component={Finder} />      
       <Route path='/profile' component={Profile}/>
-      <Route exact path='/' component={Login}/>
+      <Route exact path='/BEVY' component={Login}/>
 
 
       </div>

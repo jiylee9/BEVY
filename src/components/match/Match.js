@@ -8,6 +8,8 @@ import Finder from '../../components/finder/Finder'
 function Match() {
     return (
       <div>
+        
+      <Nav />
       <div className="container">
           <div className="contacts">
           <h2>Contacts</h2>

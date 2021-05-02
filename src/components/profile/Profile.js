@@ -17,6 +17,8 @@ class Profile extends React.Component {
 
     return (
       <div>
+        
+      <Nav />
       <div className="container">
         <div className="profile">
           <img className="profile-image" src="https://i.imgur.com/hzRXXd1.jpg" alt="kati wen"></img>
