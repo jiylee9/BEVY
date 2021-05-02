@@ -16,7 +16,6 @@ function App() {
   return (
     <Router>   
       <div className="home-default">  
-
       <Nav />
       <Route path='/matches' component={Match} />
       <Route path='/discover' component={Finder} />      

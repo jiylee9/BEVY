@@ -15,7 +15,6 @@ class Finder extends React.Component{
     return (
 
       <div>
-      <Nav/>
       <div className="container">
         
         <div className="discover">
