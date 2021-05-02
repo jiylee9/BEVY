@@ -48,6 +48,8 @@ function Match() {
             <li>Bio: A fun outgoing person!</li>
             <li>Interests: Knitting, skin care, webtoons</li>
             <li>Graduation year: 2024</li>
+            <li>Discord: Jyunah#1341</li>
+            <li>Linkedin: https://www.linkedin.com/in/jiyoonl/</li>
           </ul>
 
           </div>

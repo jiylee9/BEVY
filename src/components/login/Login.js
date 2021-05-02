@@ -25,7 +25,7 @@ const styles = theme => ({
   image: {
     backgroundImage: 'url(https://i.ibb.co/zJZ2XMf/login.png)',
     backgroundRepeat: 'no-repeat',
-    backgroundColor: pink[500],
+    backgroundColor: pink[50],
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   },
@@ -49,10 +49,10 @@ const styles = theme => ({
 
   palette: {
     primary: {
-        main: pink[500],
+        main: pink[50],
       },
       secondary: {
-        main: pink[500],
+        main: pink[50],
       },
   },
 
